@@ -5,7 +5,7 @@ All task information can be found here: https://gist.github.com/MichalCab/c1dce3
 ## Introduction
 Project's aim was to create currency converter application as a real-life production ready project. 
 Created sollution contains two application standpoints. One built as CLI tool and another as a web 
-API application. Both of them make heavy use of backend class providing conversion rates based on
+API application. Both of them make use of backend class providing conversion rates based on
 accessible free web API https://ratesapi.io/ . 
 
 ## Technologies
@@ -32,13 +32,13 @@ Backend class that makes the conversions happen
 * forex_python - For currency symbol to currecy code translation (modified)
 
 ## Running an application
-Run a `currency_converter.py` file with appropriate parameters, or `currency_converter_api.py` for appropriate behaviour.
+Run a `currency_converter.py` file with supported parameters, or `currency_converter_api.py` for appropriate behaviour.
 
 ## Parameters
 * `amount` - Specifies amount for conversion. Type: *FLOAT*
 * `input_currency` - Specifies input currency code. Format: *3 letters name or currency symbol*
 * `output_currency` - Specifies requested/output currency. Format: *3 letters name or currency symbol*
-*While using CLI version of application -h/--help option can be used for quick options listing.*
+  *While using CLI version of application -h/--help option can be used for quick options listing.*
 
 ## Features
 Some currency symbols may represent multiple currency codes. Therefore:
@@ -81,9 +81,9 @@ GET /currency_converter?amount=42.42&input_currency=USD HTTP/1.1
 		"CHF": 41.788660522686, 
 		"CNY": 291.494697023544, 
 		"CZK": 955.8028703055, 
-        .
-        .
-        .
+			.
+			.
+			.
         }
 }
 ```
