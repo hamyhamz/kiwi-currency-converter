@@ -38,7 +38,7 @@ Run a `currency_converter.py` file with supported parameters, or `currency_conve
 * `amount` - Specifies amount for conversion. Type: *FLOAT*
 * `input_currency` - Specifies input currency code. Format: *3 letters name or currency symbol*
 * `output_currency` - Specifies requested/output currency. Format: *3 letters name or currency symbol*
-  *While using CLI version of application -h/--help option can be used for quick options listing.*
+<br\>*While using CLI version of application -h/--help option can be used for quick options listing.*
 
 ## Features
 Some currency symbols may represent multiple currency codes. Therefore:
