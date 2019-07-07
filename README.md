@@ -32,7 +32,7 @@ Backend class that makes the conversions happen
 * forex_python - For currency symbol to currecy code translation (modified)
 
 ## Running an application
-Run a `currency_converter.py` file, either in API or CLI folder for appropriate behaviour.
+Run a `currency_converter.py` file with appropriate parameters, or `currency_converter_api.py` for appropriate behaviour.
 
 ## Parameters
 * `amount` - Specifies amount for conversion. Type: *FLOAT*
@@ -65,7 +65,6 @@ converted to all currencies yielded from provided `output_currency`.
 ```
 
 ### API
-At first you should run the application like so `./currency_converter_api` to start the server part of application.
 ```
 GET /currency_converter?amount=42.42&input_currency=USD HTTP/1.1
 {
